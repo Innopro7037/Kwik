@@ -1,0 +1,487 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  padding: 0 1.5rem;
+  background-color: #0d0b1a;
+}
+
+.for-grid {
+  min-height: 100vh;
+  background-color: #0d0b1a;
+  color: white;
+  display: grid;
+  grid-template-columns: 10% 40% 50%;
+}
+
+/* New section */
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #00000070;
+}
+
+nav a:any-link {
+  color: white;
+  margin: 1.5rem 0;
+}
+nav a:hover {
+  opacity: 0.7;
+}
+
+a .material-symbols-outlined {
+  font-size: 2rem;
+}
+
+/* New section */
+
+.search {
+  width: 100%;
+  padding: 1rem;
+}
+
+.search input {
+  width: 100%;
+  height: 40px;
+  background-color: #00000070;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.price {
+  display: flex;
+  justify-content: space-around;
+}
+
+.price__header {
+  display: flex;
+  align-items: center;
+}
+
+p .material-symbols-outlined {
+  font-size: 0.9rem;
+  margin-right: 6px;
+}
+
+.price__status {
+  color: #ff3f3f;
+}
+
+.items {
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid white;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item__left {
+  display: flex;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.name__fade {
+  color: #8b8b8b;
+}
+
+.price__notmain {
+  color: #ff3f3f;
+}
+
+.item__price {
+  text-align: right;
+}
+
+/* New section */
+
+.chart {
+  padding: 1rem;
+}
+
+.chart__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chart__btns button {
+  margin-right: 5px;
+  padding: 0 10px;
+  height: 40px;
+  background-color: #0077ff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.chart__account {
+  display: flex;
+  color: #ff3f3f;
+}
+
+.account__text {
+  text-align: right;
+  margin-right: 5px;
+}
+
+.chart__user p {
+  background-color: #0077ff;
+  color: white;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.chat .material-symbols-outlined {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  padding: 10px;
+  background-color: #0077ff;
+  color: white;
+  border-radius: 50%;
+}
+
+/* NEW SECTION REAL */
+
+.sec-sec {
+  background-color: #0d0b1a;
+  color: white;
+  min-height: 80vh;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.sec__left {
+  background-color: #1f1d2d;
+  padding: 1.5rem;
+}
+
+.left__header {
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.left__line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.line {
+  height: 1px;
+  width: 160px;
+  background-color: #ffffff79;
+}
+
+.sec__right {
+  background-color: #00000070;
+  padding: 1.5rem;
+}
+
+.right__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.right__header button {
+  background-color: #282539;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.right__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #ffffff83;
+}
+
+.main__left {
+  color: #39981a;
+  display: flex;
+  align-items: center;
+}
+
+.main__icon .material-symbols-outlined {
+  margin-right: 10px;
+}
+
+.main__right button {
+  height: 30px;
+  padding: 0 1rem;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.withdraw {
+  background-color: #282539;
+}
+.deposit {
+  background-color: #0077ff;
+}
+
+/* FOR DEPOSIT PAGE */
+.deposit-section {
+  margin: 0 2rem 2rem;
+  background-color: #0d0b1a;
+  box-shadow: 0 0 10px #00000076;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  color: white;
+  background-color: #282539;
+}
+
+.deposit__main .material-symbols-outlined {
+  padding-top: 3rem;
+  font-size: 9rem;
+}
+
+.deposit__main p {
+  color: white;
+  text-align: center;
+}
+
+.deposit__btns {
+  padding: 2.5rem;
+}
+
+.deposit__btns button {
+  width: 100%;
+  height: 50px;
+  background-color: #0077ff;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn__first {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.btn__second {
+  font-size: 0.7rem;
+  color: #d3d3d3;
+}
+
+/* FOR MAIN DEPOSIT PAGE */
+
+.main-depo {
+  min-height: 100vh;
+  background-color: white;
+  width: 45%;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.first button {
+  font-size: 0.8rem;
+  background-color: #0077ff;
+  color: white;
+  padding: 0 10px;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.first__main {
+  background-color: #dadada;
+  padding: 1rem;
+  text-align: center;
+}
+
+.first__main p {
+  color: black;
+  text-align: center;
+  font-weight: 600;
+  padding: 0.5rem;
+}
+
+.first__main .id {
+  background-color: white;
+}
+
+.first__main a:any-link {
+  color: red;
+  font-size: 0.8rem;
+  padding: 1rem;
+}
+
+h2 {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+}
+h3 {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.account__deposit {
+  background-color: #dadada;
+  padding: 1rem;
+  text-align: center;
+}
+
+.account__deposit p {
+  font-size: 0.9rem;
+  text-decoration: underline;
+  padding: 1rem;
+}
+
+.depo-box {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.depo-box label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.depo-box input {
+  height: 30px;
+  outline: none;
+  margin: 10px 0;
+  padding: 1rem;
+}
+
+.depo-box button {
+  height: 25px;
+  margin: 4px 0;
+  color: white;
+  border: none;
+}
+
+.card-btn {
+  background-color: #0077ff;
+}
+.bitcoin-btn {
+  background-color: black;
+}
+
+.important p {
+  padding: 1rem 0;
+}
+
+.important span {
+  color: red;
+}
+
+.third {
+  background-color: #dadada;
+  padding: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.lines__left {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.transaction {
+  background-color: red;
+  color: white;
+  padding: 0 5px;
+}
+
+/* CRYPTO SECTION */
+
+.crypto-container {
+  background-color: white;
+  width: 40%;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #00002f;
+  text-align: center;
+  padding: 2rem;
+}
+.logo span {
+  font-size: 2rem;
+  color: #00002f;
+}
+
+.crypto__main p {
+  font-size: 0.8rem;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+}
+
+h1 .material-symbols-outlined {
+  font-size: 2.3rem;
+}
+
+.crypto__copy {
+  display: flex;
+  align-items: center;
+}
+
+.crypto__copy p {
+  margin: 1.5rem;
+}
+
+.key {
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.crypto__btn-one button {
+  margin-left: 1.5rem;
+  padding: 1rem;
+  color: white;
+  background-color: #0077ff;
+  border: none;
+  border-radius: 8px;
+}
+
+.info {
+  font-size: 0.9rem;
+  padding: 1rem 0;
+}
+
+.crypto__btn-two button {
+  padding: 1rem;
+  color: white;
+  background-color: #0077ff;
+  border: none;
+  border-radius: 8px;
+}
